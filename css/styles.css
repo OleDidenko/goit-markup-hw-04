@@ -165,10 +165,7 @@ a {
 .flex-row {
     display: flex;
     flex-wrap: wrap;
-    
-}
-
-
+   }
 
 .footer .col:nth-child(2) {
     margin-left: 70px;
@@ -515,6 +512,12 @@ font-family: 'Roboto';
     margin-bottom: 0;
 }
 /* clients */
+
+.container .flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .clients-titel {
     font-family: 'Roboto';
     font-weight: 700;
@@ -524,11 +527,22 @@ font-family: 'Roboto';
     letter-spacing: 0.03em;
 
     color: var(--titel-text-color);
-
+    padding-top: 94px;
+    margin: 0;
+    margin-bottom: 50px;
 }
-
-
-/* button */
+.clients-item {
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        margin-bottom: 94px;
+        width: 170px;
+        width: 92px;
+}
+    .clients-link {
+        display: inline-block;
+        gap: 10px;
+    }
+    /* button */
 
 .hero-button {
     display: inline-block;
