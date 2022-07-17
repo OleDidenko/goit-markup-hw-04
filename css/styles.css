@@ -137,19 +137,62 @@ a {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
 }
 
 .address .mail:hover,
 .address .mail:focus {
     color: var(--accent-color);
 }
+.header .address .mail:hover svg,
+.header .address .mail:focus svg{
+    fill: var(--accent-color);
+}
 
 .address .number:hover,
 .address .number:focus {
     color: var(--accent-color);
 }
-
+.header .address .number:hover svg,
+.header .address .number:focus svg {
+    fill: var(--accent-color);
+}
 /* address footer */
+
+
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.footer .col:nth-child(2) {
+    margin-left: 70px;
+}
+
+.footer .socials-link {
+   background: rgba(255, 255, 255, 0.1);
+}
+.footer .socials-icon {
+    fill: #FFFFFF;
+}
+
+.socials-footer-titel {
+    color: var(--primary-bg-color);
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+
+        margin-bottom: 20px;
+        margin-top: 0;
+            }
 
 .footer-logo span {
     color: var(--primary-bg-color);
@@ -314,8 +357,7 @@ font-family: 'Roboto';
     gap: 10px;
 }
 
-   .socials-item {
-  
+   .socials-item {  
     width: 44px;
     height: 44px;
 } 
@@ -391,6 +433,17 @@ font-family: 'Roboto';
 
 /* business */
 
+.business .picture-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F5F4FA;
+    border-radius: 4px;
+    min-height: 120px;
+    margin-bottom: 30px;
+
+}
+
 .container .business {
     display: flex;
     align-items: center;
@@ -461,6 +514,19 @@ font-family: 'Roboto';
     margin-top: 0;
     margin-bottom: 0;
 }
+/* clients */
+.clients-titel {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--titel-text-color);
+
+}
+
 
 /* button */
 
