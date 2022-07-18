@@ -160,12 +160,15 @@ a {
 }
 /* address footer */
 
-
-
-.flex-row {
+.clients-flex-row {
     display: flex;
-    flex-wrap: wrap;
-   }
+    justify-content: space-between;
+}
+.clients-item {
+    width: 170px;
+    height: 92px;
+    outline: 1px solid red;
+}
 
 .footer .col:nth-child(2) {
     margin-left: 70px;
@@ -216,7 +219,7 @@ footer {
 }
 .container .footer-flex-row {
     display: flex;
-    padding-left: 215px;
+    
 
 }
 .footer-titel {
@@ -228,9 +231,7 @@ font-family: 'Roboto';
     text-transform: uppercase;
     margin: 0;
    }
-.sociale {
-    display: flex;
-}
+
 .address-footer .main {
     color: #FFFFFF;
     line-height: 1.7;
