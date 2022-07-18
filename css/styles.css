@@ -168,11 +168,11 @@ a {
     display: flex;
     justify-content: space-between;
 }
-.clients-item {
+/* .clients-item {
     width: 170px;
     height: 92px;
     outline: 1px solid red;
-}
+} */
 
 .footer .col:nth-child(2) {
     margin-left: 70px;
@@ -315,6 +315,7 @@ font-family: 'Roboto';
     padding-bottom: 200px;
     background-image: url('../images/overlay.jpg');
     max-width: 1600px;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -547,12 +548,15 @@ width: 33.333%;
         margin-bottom: 94px;
         width: 170px;
         }
+.clients-item:hover {
+    outline: 1px solid var(--accent-color);
+}
 
     .clients-link {
         display: inline-block;
         padding: 16px 32px;
             }
-            
+
 .clients-link svg {
     fill: #AFB1B8;
 }
